@@ -2,7 +2,7 @@
 
 
 ### Executive Summary
-For prudential life insurance project on Kaggle, after preprocessing steps, 3 different algorithms were implemented. Naïve Bayes, ADABoost and Linear Discriminant Analysis. From those 3, ADABoost used sklearn packages and therefore was not used for submission but it was only used for comparison. Kaggle scores of the three methods are 0.41, 0.49, 0.51 respectively the best result corresponding to LDA. Therefore LDA was used to classify the dataset.
+For insurance rating prediction project on Kaggle (https://www.kaggle.com/c/cs412-insurance/submissions), after preprocessing steps, 3 different algorithms were implemented. Naïve Bayes, ADABoost and Linear Discriminant Analysis. From those 3, ADABoost used sklearn packages and therefore was not used for submission but it was only used for comparison. Kaggle scores of the three methods are 0.41, 0.49, 0.51 respectively the best result corresponding to LDA. Therefore LDA was used to classify the dataset.
 
 ### Project Introduction
 In real world, insurance companies are prudent in conducting risk analysis on applications before issuing the insurance. It is obvious that the applications with lower risk are more likely to successfully gain full coverage of insurance for goods or applicants. Thus, the insurance companies need to establish evaluation models on how to get the highest possible profits among all the applications based on their risk levels and at the same time, the clients can have ideas on how to build up the possibilities of being covered based on the evaluation criteria.
